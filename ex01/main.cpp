@@ -6,7 +6,7 @@
 /*   By: hgutterr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/09 17:23:58 by hgutterr          #+#    #+#             */
-/*   Updated: 2026/07/09 17:23:59 by hgutterr         ###   ########.fr       */
+/*   Updated: 2026/07/10 23:58:45 by hgutterr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void increment(V &value) {
 int main()
 {
 	int arr[] = {1, 2, 3};
-	ITER_HPP::iter(arr, 3, increment);
+	ITER_HPP::iter(arr, 3 , increment);
 	for (int n = 0; n < 3; ++n) {
 		std::cout << "arr[" << n << "]: " << arr[n] << std::endl;
 	}
