@@ -6,11 +6,11 @@
 #    By: hgutterr <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/07/09 17:23:41 by hgutterr          #+#    #+#              #
-#    Updated: 2026/07/09 17:23:52 by hgutterr         ###   ########.fr        #
+#    Updated: 2026/07/11 16:35:17 by hgutterr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		= template
+NAME		= iter
 
 CXX 		= c++
 CXXFLAGS 	= -Wall -Werror -Wextra -std=c++98
